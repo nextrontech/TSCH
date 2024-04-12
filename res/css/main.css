@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url(/res/img/kigs-plag.jpg);
+  background: url('kigs-plag.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
