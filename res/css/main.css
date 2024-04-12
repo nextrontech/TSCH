@@ -15,6 +15,10 @@ body {
   background-attachment: fixed;
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 #all {
   display: flex;
   flex-direction: column;
@@ -115,10 +119,6 @@ header {
   backdrop-filter: blur(10px);
   line-height: 34px;
   display: none;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
 }
 
 .sidebar a {
